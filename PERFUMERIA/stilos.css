@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(IMAGENES/cuerpo.jpg);
+ font-family: Tahoma, Geneva, sans-serif;
+ color:#FFF;
+ margin: 0;
+ padding: 0;
+}
+header {
+	background-image:url(IMAGENES/nav.jpg);
+ font-family:"Times New Roman", Times, serif;
+ font-size:30px;
+ color: #000;
+ padding: 20px;
+}
+nav ul {
+ list-style-type: none;
+ background-image:url(IMAGENES/cuerpo.jpg);
+ color:#000000;
+ margin: 0;
+ padding: 0;
+}
+nav ul li {
+ display: inline;
+ margin-right: 15px;
+}
+nav ul li a {
+ color: #000;
+ text-decoration: none;
+}
+section {
+	background-image:url(IMAGENES/cuerpo.jpg);
+ padding: 25px;
+
+}
+footer {
+	font-family:"MS Serif", "New York", serif;
+	background-image:url(IMAGENES/nav.jpg);
+ color: #000;
+ padding: 10px;
+ text-align: center;
+}
+
+.st{
+    width: 1000px;
+    margin: 6rem auto 3rem auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 7rem;
+    font-family: BenguiatBold.ttf;
+    font-weight: 800;
+    color: #000;
+    letter-spacing: -2px;
+    animation: popShadow 5s infinite;
+}
+
+ 
+
+@keyframes popShadow {
+    0% {
+        text-shadow: 0 0 0 black;
+    }
+
+    50% {
+        text-shadow: -0.05rem -0.05rem 1px #FFF,
+        0.05rem -0.05rem 1px #FCF,
+        -0.05rem 0.05rem 1px #F9F,
+        0.05rem 0.05rem 1px #F6F,
+        0 0 15px #F3F,
+        0 0 20px #F0F;
+    }
+
+    100% {
+        text-shadow: 0 0 0 black;
+    }
+	
+	
+	
+	
+
+}
